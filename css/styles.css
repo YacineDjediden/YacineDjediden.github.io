@@ -1,46 +1,77 @@
-/*@font-face {
-    font-family: 'MaSuperPolice';
-    src: url('MaSuperPolice.eot');
-}*/
-.souligne {
-    text-decoration: overline;
+.charset {
+    font-size: 0.8em;
+    /*width: 17%;*/
 }
-
+p {
+    /*width: 50%;*/
+    min-width: 150px;
+    /*font-size: 0.6em;*/
+}
 body {
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    /*border: 1px solid black;
+    width: 80%;
+    min-width: 150px;
+    /*padding: 12px;
+    margin: auto;
+    margin-bottom: 20px;*/
 }
-
 #gauche {
-    border: 1px solid red;
-    width: 28%;
+    /*border: 1px solid black;*/
+    width: 14%;
     float: left;
-    background-color: yellow;
+    background-color: orange;
+    text-align: center;
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto*/
+    margin-bottom: 20px;
 }
-
-.droite {
-    border: 1px solid red;
-    width: 68%;
-    float: top right;
-}
-
 #gauche h2 {
     clear: both;
     background-color: #000000;
-    color: yellow;
-    font-size: 0.8em;
+    color: orange;
     text-transform: uppercase;
+    font-size: 1em;
 }
-
+#droite {
+    border: 1px solid black;
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    width: 85%;
+    /*max-width: 50%;
+    /*max-height: 20%*/
+    float: right;
+    /*text-align: justify;*/
+    /*padding: 12px; /* Marge intérieure de 12px*/
+    /*margin-bottom: 20px;*/
+}
 mark {
     /* La couleur de fond prend le pas sur celle de toute la page*/ 
     background-color: white;
-    color: yellow;
+    color: orange;
 }
-
-.intitul {
-    font-size: 12px;
+.date_form {
+    float: left;
+    width: 17%;
 }
-
-p {
-    font-size: 0.6em;
+.formation {
+    /*text-align: justify;*/
+    float: right;
+    width: 78%;
+}
+.date_exp {
+    float: left;
+    width: 17%;
+}
+.experience {
+    float: right;
+    width: 78%;
+}
+.ref1 {
+    float: left;
+    width: 17%;
+}
+.ref2 {
+    float: right;
+    width: 78%;
+}
+h3{
+   /* text-align: justify;*/
 }
