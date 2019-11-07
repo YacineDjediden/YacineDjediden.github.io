@@ -1,29 +1,34 @@
 .charset {
     font-size: 0.8em;
-    /*width: 17%;*/
+    /*max-width: ...px;*/
 }
 td {
     /*width: 50%;*/
     min-width: 150px;
-    /*font-size: 0.6em;*/
+    font-size: 0.8em;
 }
 p{
     text-align: justify;
-    font-size: 0.8em;
-    max-width: 150px;
+    font-size: 0.6em;
+    max-width: 120px;
     margin-left: 15px;
 }
 .photo {
-    text-align: center;
+    /*border-radius: 20px / 10px;
+    text-align: center;*/
+}
+img {
+    border-radius: 80px / 80px;
+     text-align: center;
 }
 #gauche {
     /*border: 1px solid black;*/
-    width: 13%;
-    height: 750px;
+    width: 12%;
+    /*height: 750px;*/
     float: left;
     background-color: rgb(255,193,7);
     text-align: center;
-    /*margin: auto; *//* On peut donc demander à ce que le bloc soit centré avec auto*/
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto*/
     /*margin-bottom: 20px;*/
 }
 #gauche h2 {
@@ -31,30 +36,42 @@ p{
     background-color: rgb(66,66,66); /*grey;*/
     color: rgb(255,193,7);
     text-transform: uppercase;
-    font-size: 0.8em;
-    /*height: 20px;*/
+    font-size: 0.7em;
+}
+body {
+    font-family: "Roboto"; 
 }
 #contact {
-    height: 250px;
+    height: 200px;
 }
 #apropos {
     height: 250px;
 }
 #loisirs {
-  height: 150px; 
+  height: 80px; 
 }
 #droite {
     float: right;
-    width: 84%;
+    width: 85%;
     height: 750px;
     /*text-align: justify;*/
-    /*margin: auto;*/
+    margin: auto;
 }
-mark {
+strong {
     /* La couleur de fond prend le pas sur celle de toute la page*/ 
     background-color: white;
     color: rgb(255,193,7);
 }
+mark {
+    font-size: 0.6em;
+    background-color: white;
+}
 .recommandation {
-    min-width: 250px;   
+    min-width: 200px;   
+}
+h3 {
+    border-bottom: 1px solid rgb(255,193,7);
+    width: 450px;
+    height: 30px;
+    font-size: 0.8em;
 }
