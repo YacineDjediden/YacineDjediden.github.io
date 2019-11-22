@@ -1,10 +1,11 @@
 
 
-.corps_cv {  
+body {  
 /*                  /*........BODY.............*/
-   font-family: "Roboto";
-    height: 750px;
+    font-family: "Roboto";
+    height: auto;
     width: 70%;
+    margin: auto;
     background-color: black;
 }
 
@@ -50,6 +51,63 @@
     height: 40%;
     margin-top: 10px;
 }
+
+
+#bloc_loisirs,
+#bloc_contact,
+#bloc_reseau,
+#bloc_apropos {
+    font-size: 1em;
+}
+
+
+#bloc_apropos {
+    text-align: justify;
+}
+
+#bloc_loisirs {
+    text-align: center;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-justify {
+   text-align: justify;
+}
+
+
+
+
+
+#bloc_loisirs h2,
+#bloc_contact h2,
+#bloc_reseau h2,
+#bloc_apropos h2 {
+   font-size: 2.5em;
+   margin: 0.2em auto;
+}
+
+
+#gauche section {
+    font-size: 1em;
+}
+
+#gauche section h2 {
+   font-size: 2.5em;
+   margin: 0.2em auto;
+}
+
+#gauche section p {
+   text-align: justify;
+}
+
+
+
+
+
+
 
 #bloc_apropos p {
     margin-left: 10%;
@@ -212,4 +270,29 @@ h1 strong {
     font-size: 0.5em;
     margin-top: 5px;
     margin-bottom: 1px;
+}
+
+
+
+
+@media screen and (max-width: 1280px)
+{
+      body {
+          width: 80%;
+      }
+
+      #gauche {                       /*........LEFT...........*/
+          width:  25%; 
+   }
+}
+
+@media screen and (max-width: 768px)
+{
+      body {
+          width: 100%;
+      }
+
+      #gauche {                       /*........LEFT...........*/
+          width:  45%; 
+   }
 }
