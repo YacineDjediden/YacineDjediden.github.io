@@ -1,33 +1,34 @@
-
-
-body {  
-/*                  /*........BODY.............*/
+* {
     font-family: "Roboto";
+    color: rgb(64,64,64);
+}
+
+/*........BODY.............*/
+body {
+    /*border: 3px solid rgba(0,0,0,0.2);*/           
     height: auto;
-    width: 70%;
     margin: auto;
+    width: 90%;
     background-color: black;
 }
 
-#gauche {                       /*........LEFT...........*/
-    font-family: "Roboto";
-    float: left;
-    width:  16%; 
-    margin-left: 46%;
-    height: 750px;
+/*........LEFT...........*/
+#gauche {                       
     background-color: rgb(254,202,6);
+    float: left;
+    width: 32%;
 }
 
 .bloc_photo {
-    height: 13%;
     text-align: center;
 }
 
-.imageflottante {
-    border-radius: 80px / 80px;
-    height: 80px;
-    width: 80px;
-    margin-top: 10%;
+.bloc_photo img {
+    width: 50%;
+    border-radius: 120px / 120px;
+    border: 3px solid rgba(0,0,0,0.2);
+    margin-top: 13%;
+    margin-bottom: 5%;
 }
 
 #gauche h2 {
@@ -35,42 +36,19 @@ body {
     background-color: rgb(64,64,64); 
     color: rgb(254,202,6);
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 1.5em;
     text-align: center;
-    height: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-#bloc_contact {
-    height: 20%;
-    font-size: 0.5em;
-    margin-left: 10%;
-    margin-top: 10px;
+#gauche section p {
+    padding: 0.5em 3em;
+    /*color: rgb(64,64,64);*/
 }
 
-#bloc_apropos {
-    height: 40%;
-    margin-top: 10px;
-}
-
-
-#bloc_loisirs,
-#bloc_contact,
-#bloc_reseau,
-#bloc_apropos {
-    font-size: 1em;
-}
-
-
-#bloc_apropos {
-    text-align: justify;
-}
-
-#bloc_loisirs {
-    text-align: center;
-}
-
-.text-center {
-   text-align: center;
+.margin-bottom {
+    margin-bottom: 25em;
 }
 
 .text-justify {
@@ -78,84 +56,37 @@ body {
 }
 
 
-
-
-
-#bloc_loisirs h2,
-#bloc_contact h2,
-#bloc_reseau h2,
-#bloc_apropos h2 {
-   font-size: 2.5em;
-   margin: 0.2em auto;
+.text-center {
+   text-align: center;
+   margin-bottom: 8%;
 }
 
 
-#gauche section {
-    font-size: 1em;
-}
-
-#gauche section h2 {
-   font-size: 2.5em;
-   margin: 0.2em auto;
-}
-
-#gauche section p {
-   text-align: justify;
-}
-
-
-
-
-
-
-
-#bloc_apropos p {
-    margin-left: 10%;
-    width: 70%;
-    text-align: justify;
-    font-size: 0.5em;
-}
-
-#bloc_loisirs {
-    height: 20%;
-    text-align: center;
-}
-
-.fa-futbol-o {
-    font-size:20px;
-    color: rgb(64,64,64);
-     background-color: rgb(254,202,6);
-} 
-
-.fa-motorcycle {
-   font-size:20px;
-   color: (64,64,64);
-   background-color: rgb(254,202,6);
-} 
-
+.fa-futbol-o,
+.fa-motorcycle,
 .fa-skiing {
-    font-size:20px;
-   color: rgb(64,64,64);
+    font-size: 40px;
     background-color: rgb(254,202,6);
+    border: 2px solid rgb(64,64,64);
+    width: 20%;
+    border-radius: 280px / 200px;
 } 
 
 
 
-#droite {                       /*........RIGHT............*/
-    font-family: "Roboto";
-    float: right;
-    width: 33%;
-    height: 750px;
+/*........RIGHT............*/
+#droite {                       
     background-color: white;
-    font-size: 0.7em;
-    margin-right: 5%;
+    /*color: rgb(64,64,64);*/
+    float: right;
+    width: 68%;
 }
 
 #droite h1 {
-    font-size: 2em;
-    margin-left: 10%;
-    margin-top: 50px; 
-    margin-bottom: 5px;
+    font-size: 4em;
+    margin-top: 13%;
+    margin-bottom: 1%;
+    padding-left: 1em;
 }
 
 h1 strong {
@@ -164,126 +95,111 @@ h1 strong {
 }
 
 #droite h2 {
-    font-size: 1em;
-    margin-left: 10%;
-    margin-top: 5px;
-    margin-bottom: 40px;
+    font-size: 1.7em;
+    margin-top: 1%;
+    margin-bottom: 13%;
+    padding-left: 2.5em;
 }
 
 #droite h3 {
-    border-bottom: 1px solid rgb(254,202,6);
-    height: 20px;
-    font-size: 1em;
+    border-bottom: 2px solid rgb(254,202,6);
+    color: black;
+    max-width: 80%;
+    height: 50px;
+    font-size: 1.8em;
     margin: 1em auto;
-
-    margin-bottom: 1px;
-    width: 80%;
-    /*margin-top: 10px;*/
+    /*margin-top: 10%;*/
 }
 
 .fa-graduation-cap {
-    margin-right: 10px;
-    font-size: 30px;
+    font-size: 40px;
     background-color: white; 
     color: rgb(254,202,6);
-    width: 6%;
+    padding-right: 3%;
 }
 
 .fa-briefcase {
-    margin-right: 10px;
-    font-size: 30px; 
+    font-size: 40px; 
     background-color: white;
     color: rgb(254,202,6);
-    width: 6%;
+    padding-right: 3%;
 }
 
 .fa-pencil-square {
-    margin-right: 10px;
-    font-size: 30px;
+    font-size: 40px;
     background-color: white; 
     color: rgb(254,202,6);
-    width: 6%;
+    padding-right: 3%;
 }
 
+
+
 .col3070 {
-    width: 80%;
-    height: 17%;
-    font-size: 0.6em;
+    max-width: 80%;
     text-align: justify;
-    margin-left: 15%;   
+    margin-left: 15%;
+    margin-top: 5%;
 }
 
 .col3070 h4 {
     font-size: 1.2em;
-    margin-bottom:1px;
-    margin-top: 10px;
-    margin-left: 1%;
+    margin-bottom:1%;
+    margin-top: 1%;
 }
 
 .col3070 h5 {
-    font-size: 0.5em;
-    margin-top: 4px;
-    margin-bottom: 3px;
-    margin-left: 1%;
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .col3070 p {
-    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 10%;
     max-width: 90%;
-    margin-top: 1px;
-    margin-bottom: 5px;
 }
 
 .periode {
     float: left;
-    font-size: 0.7em;
-    width: 65px;
-    margin-top: 10px;
+    font-size: 1em;
+    width: 200px;
 }
+
 
 .recommandation {
+    min-width: 80%;
+    text-align: justify;
     margin-left: 10%;
-    height: 5%;
-    width: 80%
+    margin-top: 3%;
+    margin-bottom: 8%;
 }
 
-.recommandation h6 {
-    font-size: 0.6em;
-    margin-top: 10px;
-    margin-bottom: 1px;
+.recommandation h5 {
+    font-size: 1em;
+    margin-bottom:1%;
+    margin-top: 1%;
 }
 
 .recommandation p {
-    font-size: 0.6em;
-    margin-top: 5px;
-    margin-bottom: 1px;
-
-}
-
-.recommandation aside {
-    font-size: 0.5em;
-    margin-top: 5px;
-    margin-bottom: 1px;
-}
-
-.recommandation span {
-    font-size: 0.5em;
-    margin-top: 5px;
-    margin-bottom: 1px;
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 
-
-
+/*
 @media screen and (max-width: 1280px)
 {
       body {
           width: 80%;
-      }
+        }
 
       #gauche {                       /*........LEFT...........*/
-          width:  25%; 
-   }
+         /* width:  25%; 
+    }
+      #droite {
+        width: 55%;
+    }
 }
 
 @media screen and (max-width: 768px)
@@ -293,6 +209,11 @@ h1 strong {
       }
 
       #gauche {                       /*........LEFT...........*/
-          width:  45%; 
+       /*   width:  45%; 
    }
+     #droite {
+        width: 65%;
+   }
+
 }
+*/
