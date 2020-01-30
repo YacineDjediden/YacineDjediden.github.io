@@ -27,7 +27,7 @@ body {
 
 .bloc_photo {
     text-align: center;
-    height: 260px;
+    /*height: 260px;*/
 }
 
 .bloc_photo > img {
@@ -50,22 +50,29 @@ body {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
+/*
+a {
+    color: green;
+}
+*/
 #gauche section p {
-    padding: 0.5em 3em;
+    padding: 0.5em 0.5em;
 }
 
 .margin-bottom {
-    margin-bottom: 29em;
+    margin-bottom: 6em;
 }
 
 .text-justify {
     text-align: justify;
 }
+.liste {
+    padding: 0.5em 3em;
+}
 
 .text-center {
     text-align: center;
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
 }
 
 .text-center i {
@@ -141,7 +148,7 @@ h1 strong {
 
 .col3070 p {
     margin-top: 0.4em;
-    margin-bottom: 2.6em;
+    margin-bottom: 4em;
     width: 95%;
 }
 
@@ -173,16 +180,16 @@ td {
 }
 
 .recommandation {
-    width: 90%;
+    width: 95%;
     margin-left: 5em;
-    margin-top: 0em;
-    margin-bottom: 1.5em;
+    margin-top: 2em;
+    padding-bottom: 0.5em;
 }
 
 .recommandation h5 {
     font-size: 1em;
     margin-bottom: 0.5em;
-    margin-top: 0.9em;
+    margin-top: 0.3em;
 }
 
 .recommandation p {
@@ -229,7 +236,7 @@ td {
     }
 
     .margin-bottom {
-        margin-bottom: 12em;
+        margin-bottom: 3em;
     }
     
     .text-center {
@@ -324,9 +331,10 @@ td {
 
 
 @media screen and (max-width: 767px) {
-    body {
+    /*body {
         width: 100%;
     }
+    */
 /*  Bloc gauche */
     #gauche { 
         width:  100%;
